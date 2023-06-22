@@ -13,7 +13,7 @@ Requirements
 Install
 =======
 
-    npm install ftp
+    npm i ftp-fork-fixed
 
 
 Examples
@@ -22,7 +22,7 @@ Examples
 * Get a directory listing of the current (remote) working directory:
 
 ```javascript
-  var Client = require('ftp');
+  var Client = require('ftp-fork-fixed');
 
   var c = new Client();
   c.on('ready', function() {
@@ -39,7 +39,7 @@ Examples
 * Download remote file 'foo.txt' and save it to the local file system:
 
 ```javascript
-  var Client = require('ftp');
+  var Client = require('ftp-fork-fixed');
   var fs = require('fs');
 
   var c = new Client();
@@ -57,7 +57,7 @@ Examples
 * Upload local file 'foo.txt' to the server:
 
 ```javascript
-  var Client = require('ftp');
+  var Client = require('ftp-fork-fixed');
   var fs = require('fs');
 
   var c = new Client();
